@@ -13,7 +13,9 @@ const App = () => {
       <PopularCities />
 
       {/* ✅ Hotel Section (Fixed for laptop/desktop) */}
+      
       <div className="p-6 max-w-7xl mx-autov ">
+        <h1 className="text-2xl font-semibold mb-6">Hotels in Bhopal</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Left: Filters (1 column) */}
           <div className="col-span-1">
