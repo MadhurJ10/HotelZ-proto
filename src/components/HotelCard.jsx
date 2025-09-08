@@ -8,7 +8,7 @@ export default function HotelCard({ hotel }) {
         <img
           src={hotel.image}
           alt={hotel.name}
-          className="w-72 h-48 object-cover rounded-lg"
+          className="w-full h-48 object-cover object-center rounded-lg"
         />
         <div className="grid grid-cols-4 gap-1 mt-2">
           {hotel.images.slice(0, 3).map((img, idx) => (
@@ -16,7 +16,7 @@ export default function HotelCard({ hotel }) {
               key={idx}
               src={img}
               alt={`hotel-${idx}`}
-              className="w-16 h-12 object-cover rounded"
+              className="w-16 h-12 object-cover  rounded"
             />
           ))}
           <div className="flex items-center justify-center bg-gray-200 text-sm font-semibold rounded">
@@ -67,7 +67,7 @@ export default function HotelCard({ hotel }) {
             </p>
             <p className="text-lg font-semibold text-red-600">
               ₹ {hotel.price.toLocaleString()}
-              <span className="text-sm text-gray-600"> / night</span>
+              <span className="text-sm text-gray-600"> / Hour</span>
             </p>
           </div>
           <button className="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">

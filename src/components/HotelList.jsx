@@ -1,4 +1,22 @@
 import HotelCard from "./HotelCard";
+import bed1 from '../assets/bed1.jpg'
+import bed2 from '../assets/bed2.jpg'
+import bed3 from '../assets/bed3.jpg'
+import bed4 from '../assets/bed4.jpg'
+import bed5 from '../assets/bed5.jpg'
+import bed6 from '../assets/bed6.jpg'
+import ex1 from '../assets/ex1.jpg'
+import ex2 from '../assets/ex2.jpg'
+import ex3 from '../assets/ex3.jpg'
+import ex4 from '../assets/ex4.jpg'
+import ex5 from '../assets/ex5.jpg'
+import ex6 from '../assets/ex6.jpg'
+import ex7 from '../assets/ex7.jpg'
+import ex8 from '../assets/ex8.jpg'
+import ex9 from '../assets/ex9.jpg'
+
+
+
 
 
 export default function HotelList() {
@@ -7,44 +25,36 @@ export default function HotelList() {
             name: "Continental Inn",
             stars: 4,
             location: "Ayodhya Bypass, Bhopal",
-            image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            images: [
-                "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: bed4,
+            images: [ ex2, ex3, ex4
             ],
             features: [ "Free Wi-Fi", "Free Parking", "24h Front Desk", "Restaurant" ],
-            price: 2704,
-            reviews: { text: "Excellent", score: 8.8, count: 51 },
+            price: 327,
+            reviews: { text: "Excellent", score: 8.8, count: 81 },
         },
-                {
+        {
             name: "Hotel Continental",
             stars: 4,
             location: "Ayodhya Nagar, Bhopal",
-            image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            images: [
-                "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: bed6,
+            images: [ ex1, ex5, ex6
             ],
             features: [ "Free Wi-Fi", "Free Parking", "24h Front Desk", "Restaurant" ],
-            price: 2704,
-            reviews: { text: "Excellent", score: 8.8, count: 51 },
-        },        {
+            price: 290,
+            reviews: { text: "Excellent", score: 8.8, count: 50 },
+        }, {
             name: "Shree Balaji Hotel",
             stars: 4,
             location: "ISRO Colony, Bhopal",
-            image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: bed1,
             images: [
-                "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                ex7, ex8, ex9
             ],
             features: [ "Free Wi-Fi", "Free Parking", "24h Front Desk", "Restaurant" ],
-            price: 2704,
-            reviews: { text: "Excellent", score: 8.8, count: 51 },
+            price: 230,
+            reviews: { text: "Excellent", score: 8.8, count: 49 },
         },
-       
+
     ];
 
     return (
